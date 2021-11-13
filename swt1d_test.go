@@ -10,7 +10,7 @@ import (
 )
 
 // analog of https://github.com/rafat/wavelib/wiki/SWT-Example-Code
-func ExampleSWT1D() {
+func ExampleSWT() {
 	rand.Seed(0)
 	obj := WaveInit("bior3.5")
 	defer obj.Free()
